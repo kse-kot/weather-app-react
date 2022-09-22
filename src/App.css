@@ -3,3 +3,12 @@
 	max-width: 80%;
 	margin: 0 auto;
 }
+
+.App .AuthorLink {
+	text-decoration: none;
+	color: palevioletred;
+}
+
+.App .AuthorDiv {
+	margin-top: 20px;
+}
