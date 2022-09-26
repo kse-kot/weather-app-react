@@ -11,6 +11,7 @@ function App() {
 					className="AuthorLink"
 					href="https://github.com/kse-kot/weather-app-react"
 					target="_blank"
+					rel="noreferrer"
 				>
 					Open-source
 				</a>{' '}
