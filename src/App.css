@@ -1,14 +1,19 @@
 .App {
-	font-family: sans-serif;
-	max-width: 80%;
+	font-family: arial, sans-serif;
+	max-width: 600px;
 	margin: 0 auto;
+}
+
+.App footer {
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.App .inline-block {
+	display: inline-block;
 }
 
 .App .AuthorLink {
 	text-decoration: none;
 	color: palevioletred;
-}
-
-.App .AuthorDiv {
-	margin-top: 20px;
 }
