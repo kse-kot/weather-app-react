@@ -1,4 +1,3 @@
-import SearchForm from './SearchForm'
 import Weather from './Weather'
 import './App.css'
 
@@ -8,7 +7,7 @@ function App() {
 			<div className="container">
 				<h1>Weather App</h1>
 				{/* <SearchForm /> */}
-				<Weather city="Tokyo" />
+				<Weather city="Vinnytsia" />
 				<footer>
 					<a
 						className="AuthorLink"
