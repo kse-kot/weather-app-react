@@ -3,7 +3,6 @@ import axios from 'axios'
 import WeatherInfo from './WeatherInfo'
 
 import './Weather.css'
-import SearchForm from './SearchForm'
 
 export default function Weather(props) {
 	const [weatherInfo, setWeatherInfo] = useState({ ready: false })

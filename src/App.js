@@ -6,7 +6,6 @@ function App() {
 		<div className="App">
 			<div className="container">
 				<h1>Weather App</h1>
-				{/* <SearchForm /> */}
 				<Weather city="Vinnytsia" />
 				<footer>
 					<a
