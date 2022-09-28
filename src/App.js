@@ -8,7 +8,7 @@ function App() {
 			<div className="container">
 				<h1>Weather App</h1>
 				{/* <SearchForm /> */}
-				<Weather />
+				<Weather city="Tokyo" />
 				<footer>
 					<a
 						className="AuthorLink"

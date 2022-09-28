@@ -32,12 +32,12 @@
 .Weather .temperature {
 	vertical-align: middle;
 	font-size: 40px;
-	padding: 0 8px;
+	padding: 0 4px;
 	color: black;
 }
 
 .Weather .unit {
 	vertical-align: top;
-	line-height: 3.5;
+	line-height: 5;
 	color: black;
 }
