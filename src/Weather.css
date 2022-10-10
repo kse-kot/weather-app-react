@@ -38,10 +38,19 @@
 
 .Weather .unit {
 	vertical-align: top;
-	line-height: 5;
+	line-height: 2.85;
 	color: black;
 }
 
 .Weather .icon {
 	vertical-align: middle;
+}
+
+.Weather .unit a {
+	text-decoration: none;
+	color: unset;
+}
+
+.Weather .unit .active {
+	color: #0d6efd;
 }
