@@ -23,7 +23,6 @@ export default function WeatherIcon(props) {
 		'50n': 'FOG',
 	}
 
-	console.log(props.icon)
 	const defaults = {
 		icon: iconsMap[props.icon],
 		color: 'lightblue',

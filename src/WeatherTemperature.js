@@ -31,22 +31,21 @@ export default function WeatherTemperature(props) {
 		<div className="WeatherTemperature inline-block">
 			<div className="inline-block temperature">{temperature.value}</div>
 			<div className="inline-block unit">
-				&deg;
 				<a
 					href="#"
-					className={temperature.unit == 'celcius' ? 'active' : ''}
+					className={temperature.unit == 'celcius' ? '' : 'active'}
 					onClick={showCelcius}
 				>
-					C{' '}
+					&deg;C{' '}
 				</a>
 				|
 				<a
 					href="#"
-					className={temperature.unit == 'fahrenheit' ? 'active' : ''}
+					className={temperature.unit == 'fahrenheit' ? '' : 'active'}
 					onClick={showFahrenheit}
 				>
 					{' '}
-					F
+					&deg;F
 				</a>
 			</div>
 		</div>
