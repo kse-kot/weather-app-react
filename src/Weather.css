@@ -41,3 +41,7 @@
 	line-height: 5;
 	color: black;
 }
+
+.Weather .icon {
+	vertical-align: middle;
+}
