@@ -3,9 +3,9 @@ import './App.css'
 
 function App() {
 	return (
-		<div className="App">
+		<div className="App pt-5">
 			<div className="container">
-				<h1>Weather App</h1>
+				<h1 className="text-center text-primary">Weather App</h1>
 				<Weather city="Vinnytsia" />
 				<footer>
 					<a
